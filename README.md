@@ -1,5 +1,7 @@
 # TaskNexus
+![Platform][PlatformBadge] [![Swift5 compatible][Swift5Badge]][Swift5Link]  
 
+  
 TaskNexus is an iOS app that helps organize every day tasks with friends.
 
 ## Installation
@@ -41,3 +43,8 @@ All remote data is stored with Firebase: https://github.com/firebase/firebase-io
 TaskNexus primarily uses two Firebase features: Cloud Firestore and Cloud Storage. Firestore manages all task data, user data, and nexus data to make it easy to display the app in realtime. Cloud Storage stores all profile pictures uploaded to the app.
 
 Finally like briefly aforementioned, TaskNexus manages all signup and login features through Firebase Authentication to provide a secure method of account management.
+
+[PlatformBadge]: https://img.shields.io/badge/platform-iOS-lightgrey
+
+[Swift5Badge]: https://img.shields.io/badge/Swift-5-orange.svg?style=flat
+[Swift5Link]: https://developer.apple.com/swift/
