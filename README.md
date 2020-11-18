@@ -33,7 +33,7 @@ Data is stored in two ways—— locally and remotely.
 
 **Remotely**: Account information and nexus task data is all stored on the cloud. All delegated and nexus tasks are stored in a remote database. This also goes for usernames and emails.
 
-*Note: Passwords are not stored by TaskNexus and are all managed by Google's Firebaase Authentication.*
+*Note: Passwords are not stored by TaskNexus and are all managed by Google's Firebase Authentication.*
 
 #### How Data Is Stored
 All local data is stored and managed with SQLite: https://github.com/stephencelis/SQLite.swift
